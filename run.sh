@@ -1,5 +1,4 @@
 #!/bin/bash
-/usr/sbin/sshd -D &
 
 if [ ! "${AUTHORIZED_KEYS}" ];
 then

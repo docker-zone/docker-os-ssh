@@ -14,9 +14,10 @@ RUN yum update -y \
 	&& ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_ed25519_key \
 	&& ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_rsa_key \
 	&& yum install -y pwgen \
-	&& chmod +x /app/tools/sshd/run.sh \
+	&& chmod +x /run.sh \
 	&& yum remove -y epel-release \
-	&& yum clean all 
+	&& yum clean all \
+	&& /usr/sbin/sshd -D &
 
 EXPOSE 22
 

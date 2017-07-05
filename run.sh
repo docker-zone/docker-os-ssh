@@ -32,4 +32,4 @@ then
 	touch /app/tools/sshd/.root_passwd_created
 fi
 
-/usr/sbin/sshd -D &
+/usr/sbin/sshd

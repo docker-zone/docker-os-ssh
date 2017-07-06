@@ -22,6 +22,11 @@ docker pull dingwenxiang0/sshd:[TAG]
 
 `docker run -d --name sshd -p 10022:22 dingwenxiang0/sshd:[TAG]`
 
+### Use custome password 
+`docker run -d --name sshd -p 10022:22 -e ROOT_PASS=xxxxx dingwenxiang0/sshd:[TAG]`
+
+
+
 # Open a shell on it
 
 `docker exec -it sshd bash`

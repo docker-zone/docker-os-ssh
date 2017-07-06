@@ -16,9 +16,10 @@ then
 		fi
 		echo "Setting password for root"
 		echo "root:${PASS}" | chpasswd
-
+		
 		echo "---------------------------------------------"
 		echo "ssh root@host"
+		echo "password: ${PASS}"
 		echo "put in password above"
 		echo "Remember to change the password immediately!"
 		echo "---------------------------------------------"

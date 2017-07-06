@@ -39,11 +39,11 @@ in host computer exec command `ssh-keygen -t rsa` (just hit ENTER):
 * Running 
 `docker run -d --name sshd -p 10022:22 -e AUTHORIZED_KEYS=yourCopyContent dingwenxiang0/sshd:[TAG]`
 
-# Look logs (get the random password)
+# Watch logs (get the random password)
 
 `docker logs sshd`
 
-# Use ssh
+# Use SSH
 
 `ssh root@host -p 10022`
 

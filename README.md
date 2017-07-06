@@ -1,31 +1,31 @@
 # Supported tags and respective `Dockerfile` links
  
- - [`centos7`, `latest` (centos7/Dockerfile)](https://github.com/docker-zone/docker-os-ssh/blob/centos7/centos/7/Dockerfile)
+ - [`centos7`, `latest` (centos7/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7/centos/7/Dockerfile)
  
-Subscribe to project updates by watching the [docker-os-ssh GitHub repo](https://github.com/docker-zone/docker-os-ssh).
+Subscribe to project updates by watching the [docker-os-sshd GitHub repo](https://github.com/docker-zone/docker-os-sshd).
  
 # Get this image
 
-The recommended way to get the Dingwenxiang0 Operating System SSH Docker Image is to pull the prebuilt image from the [Docker Hub Registry](https://hub.docker.com/r/dingwenxiang0/ssh/).
+The recommended way to get the Dingwenxiang0 Operating System SSHD Docker Image is to pull the prebuilt image from the [Docker Hub Registry](https://hub.docker.com/r/dingwenxiang0/sshd/).
 
 ```bash
-docker pull dingwenxiang0/os-ssh
+docker pull dingwenxiang0/sshd
 ```
 
-To use a specific version, you can pull a versioned tag. You can view the [list of available versions](https://hub.docker.com/r/dingwenxiang0/ssh/tags/) in the Docker Hub Registry.
+To use a specific version, you can pull a versioned tag. You can view the [list of available versions](https://hub.docker.com/r/dingwenxiang0/sshd/tags/) in the Docker Hub Registry.
 
 ```bash
-docker pull dingwenxiang0/ssh:[TAG]
+docker pull dingwenxiang0/sshd:[TAG]
 ```
 
 # Running Container on OS with SSH
 
-`docker run -ti --name ssh -p 10022:22 dingwenxiang0/ssh:[TAG]`
+`docker run -d --name sshd -p 10022:22 dingwenxiang0/sshd:[TAG]`
 
 # Open a shell on it
 
-`docker exec -it ssh bash`
+`docker exec -it sshd bash`
 
 # Kill and remove the container
 
-`docker rm -f ssh`
+`docker rm -f sshd`

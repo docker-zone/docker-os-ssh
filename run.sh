@@ -1,5 +1,6 @@
 #!/bin/bash
 
+## generate root-passwd
 if [ ! -f /app/tools/sshd/.root_passwd_created ];
 then 
     if [ ! "${AUTHORIZED_KEYS}" ];
@@ -26,10 +27,17 @@ then
 		echo "Adding authorized_keys file"
 		mkdir -p /root/.ssh
 		chmod 700 /root/.ssh
-		cat ${AUTHORIZED_KEYS} > /root/.ssh/authorized_keys
+		touch /root/.ssh/authorized_keys
+		echo "${AUTHORIZED_KEYS}" > /root/.ssh/authorized_keys
 		chmod 600 /root/.ssh/authorized_keys
 	fi
 	touch /app/tools/sshd/.root_passwd_created
 fi
-
+## run sshd server
 /usr/sbin/sshd
+
+## keep lived
+while [ 1 ];
+do 
+    sleep 3600;
+done

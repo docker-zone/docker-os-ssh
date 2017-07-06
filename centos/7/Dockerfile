@@ -6,18 +6,15 @@ ADD https://raw.githubusercontent.com/docker-zone/docker-os-sshd/master/run.sh /
 
 RUN yum update -y \
     && yum install -y openssh-server \
-	&& yum install -y epel-release \
-	&& mkdir -p /app/tools/sshd \
-	&& mkdir -p /var/run/sshd \
-	&& rm -rf /etc/ssh/ssh_host* \
-	&& ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_ecdsa_key \
-	&& ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_ed25519_key \
-	&& ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_rsa_key \
-	&& yum install -y pwgen \
-	&& chmod +x /run.sh \
-	&& yum remove -y epel-release \
-	&& yum clean all \
-	&& /usr/sbin/sshd -D &
+    && yum install -y epel-release \
+    && yum install -y pwgen \
+    && mkdir -p /app/tools/sshd \
+    && ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_ecdsa_key \
+    && ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_ed25519_key \
+    && ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_rsa_key \
+    && chmod +x /run.sh \
+    && yum remove -y epel-release \
+    && yum clean all 
 
 EXPOSE 22
 

@@ -1,6 +1,7 @@
 # Supported tags and respective `Dockerfile` links
  
  - [`centos7`, `latest` (centos7/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7/centos/7/Dockerfile)
+ - [`ubuntu14.04` (ubuntu14.04/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/ubuntu14.04/ubuntu/14.04/Dockerfile)
  
 Subscribe to project updates by watching the [docker-os-sshd GitHub repo](https://github.com/docker-zone/docker-os-sshd).
  

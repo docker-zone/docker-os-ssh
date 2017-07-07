@@ -36,7 +36,7 @@ in host computer exec command `ssh-keygen -t rsa` (just hit ENTER):
 
 ![image](https://raw.githubusercontent.com/docker-zone/docker-os-sshd/master/copyidrsapub.png)
 
-* Running 
+* Running <br/>
 `docker run -d --name sshd -p 10022:22 -e AUTHORIZED_KEYS=yourCopyContent dingwenxiang0/sshd:[TAG]`
 
 # Watch logs (get the random password)

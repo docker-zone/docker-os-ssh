@@ -54,3 +54,15 @@ in host computer exec command `ssh-keygen -t rsa` (just hit ENTER):
 # Kill and remove the container
 
 `docker rm -f sshd`
+
+# Issue
+
+### Host key verification failed.
+
+![image](https://raw.githubusercontent.com/docker-zone/docker-os-sshd/master/hostfailed.png)
+
+How to solve the problem? <br/>
+
+in host computer remove known_hosts file: `rm -rf /root/.ssh/known_hosts`
+
+

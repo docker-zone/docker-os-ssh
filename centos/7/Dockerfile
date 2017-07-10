@@ -4,8 +4,7 @@ MAINTAINER Ding Wen Xiang "624380857@qq.com"
 
 ADD https://raw.githubusercontent.com/docker-zone/docker-os-sshd/master/run.sh /run.sh
 
-RUN yum update -y \
-    && yum install -y openssh-server \
+RUN yum install -y openssh-server \
     && yum install -y epel-release \
     && yum install -y pwgen \
     && mkdir -p /app/tools/sshd \

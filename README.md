@@ -1,5 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
+ - [`centos7.3.1611` (centos7.3.1611/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7.3.1611/centos/7.3.1611/Dockerfile)
+
 Subscribe to project updates by watching the [docker-os-sshd GitHub repo](https://github.com/docker-zone/docker-os-sshd).
  
 # Get this image

@@ -1,12 +1,5 @@
 # Supported tags and respective `Dockerfile` links
- 
- - [`centos7`, `latest` (centos7/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7/centos/7/Dockerfile)
- - [`centos7.0.1406` (centos7.0.1406/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7.0.1406/centos/7.0.1406/Dockerfile)
- - [`centos7.1.1503` (centos7.1.1503/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7.1.1503/centos/7.1.1503/Dockerfile)
- - [`centos7.2.1511` (centos7.2.1511/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7.2.1511/centos/7.2.1511/Dockerfile)
- - [`centos7.3.1611` (centos7.3.1611/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7.3.1611/centos/7.3.1611/Dockerfile)
- - [`ubuntu14.04` (ubuntu14.04/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/ubuntu14.04/ubuntu/14.04/Dockerfile)
- 
+
 Subscribe to project updates by watching the [docker-os-sshd GitHub repo](https://github.com/docker-zone/docker-os-sshd).
  
 # Get this image

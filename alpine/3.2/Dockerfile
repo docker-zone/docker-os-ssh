@@ -4,10 +4,9 @@ MAINTAINER Ding Wen Xiang "624380857@qq.com"
 
 ADD https://raw.githubusercontent.com/docker-zone/docker-os-sshd/master/run.sh /run.sh
 
-RUN apk update \
-    && apk add openssh \
-    && apk add pwgen \
-    && apk add bash \
+RUN apk add --no-cache openssh \
+    && apk add --no-cache pwgen \
+    && apk add --no-cache bash \
     && mkdir -p /app/tools/sshd \
     && ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_ecdsa_key \
     && ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_ed25519_key \

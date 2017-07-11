@@ -4,7 +4,8 @@ MAINTAINER Ding Wen Xiang "624380857@qq.com"
 
 ADD https://raw.githubusercontent.com/docker-zone/docker-os-sshd/master/run.sh /run.sh
 
-RUN apk add --no-cache openssh \
+RUN apk update \
+    && apk add --no-cache openssh \
     && apk add --no-cache pwgen \
     && apk add --no-cache bash \
     && mkdir -p /app/tools/sshd \
@@ -14,7 +15,8 @@ RUN apk add --no-cache openssh \
     && ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_dsa_key \
     && sed -ri 's/#PermitRootLogin\s+yes/PermitRootLogin yes/g' /etc/ssh/sshd_config \
     && sed -ri 's/root:!::0:::::/root:*::0:::::/g' /etc/shadow \
-    && chmod +x /run.sh
+    && chmod +x /run.sh \
+    && rm -rf /tmp/* /var/cache/apk/*
 
 EXPOSE 22
 

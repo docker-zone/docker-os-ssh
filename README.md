@@ -1,16 +1,16 @@
 # Supported tags and respective `Dockerfile` links
 
- - [`centos7`, `latest` (centos7/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7/centos/7/Dockerfile)
  - [`centos6.6` (centos6.6/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos6.6/centos/6.6/Dockerfile)
  - [`centos6.7` (centos6.7/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos6.7/centos/6.7/Dockerfile)
  - [`centos6.8` (centos6.8/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos6.8/centos/6.8/Dockerfile)
  - [`centos6.9` (centos6.9/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos6.9/centos/6.9/Dockerfile)
+ - [`centos7`, `latest` (centos7/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7/centos/7/Dockerfile)
  - [`centos7.0.1406` (centos7.0.1406/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7.0.1406/centos/7.0.1406/Dockerfile)
  - [`centos7.1.1503` (centos7.1.1503/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7.1.1503/centos/7.1.1503/Dockerfile)
  - [`centos7.2.1511` (centos7.2.1511/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7.2.1511/centos/7.2.1511/Dockerfile)
  - [`centos7.3.1611` (centos7.3.1611/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos7.3.1611/centos/7.3.1611/Dockerfile)
- - [`centos6.6` (centos6.6/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos6.6/centos/6.6/Dockerfile)
  - [`alpine3.1` (alpine3.1/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/alpine3.1/alpine/3.1/Dockerfile)
+ - [`alpine3.2` (alpine3.2/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/alpine3.2/alpine/3.2/Dockerfile)
 
 Subscribe to project updates by watching the [docker-os-sshd GitHub repo](https://github.com/docker-zone/docker-os-sshd).
  

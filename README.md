@@ -1,6 +1,5 @@
 # Supported tags and respective `Dockerfile` links
 
- - [`alpine3.4` (alpine3.4/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/alpine3.4/alpine/3.4/Dockerfile)
  - [`centos6.6` (centos6.6/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos6.6/centos/6.6/Dockerfile)
  - [`centos6.7` (centos6.7/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos6.7/centos/6.7/Dockerfile)
  - [`centos6.8` (centos6.8/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/centos6.8/centos/6.8/Dockerfile)
@@ -13,6 +12,7 @@
  - [`alpine3.1` (alpine3.1/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/alpine3.1/alpine/3.1/Dockerfile)
  - [`alpine3.2` (alpine3.2/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/alpine3.2/alpine/3.2/Dockerfile)
  - [`alpine3.3` (alpine3.3/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/alpine3.3/alpine/3.3/Dockerfile)
+ - [`alpine3.4` (alpine3.4/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/alpine3.4/alpine/3.4/Dockerfile)
 
 Subscribe to project updates by watching the [docker-os-sshd GitHub repo](https://github.com/docker-zone/docker-os-sshd).
  

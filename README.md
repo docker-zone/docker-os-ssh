@@ -1,5 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
+ - [`alpine3.2` (alpine3.2/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/alpine3.2/alpine/3.2/Dockerfile)
+
 Subscribe to project updates by watching the [docker-os-sshd GitHub repo](https://github.com/docker-zone/docker-os-sshd).
  
 # Get this image

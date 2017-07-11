@@ -14,8 +14,9 @@ RUN apk update \
     && ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_rsa_key \
     && ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_dsa_key \
     && sed -ri 's/#PermitRootLogin\s+yes/PermitRootLogin yes/g' /etc/ssh/sshd_config \
-    && sed -ri 's/root:!::0:::::/root:*::0:::::/g' /etc/shadow \
-    && chmod +x /run.sh
+    && sed -ri 's/root:!::0:::::/root:*::0:::::/g' /etc/shadow \ 
+    && chmod +x /run.sh \
+    && rm -rf /tmp/* /var/cache/apk/* 
 
 EXPOSE 22
 

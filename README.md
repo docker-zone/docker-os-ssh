@@ -14,6 +14,7 @@
  - [`alpine3.3` (alpine3.3/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/alpine3.3/alpine/3.3/Dockerfile)
  - [`alpine3.4` (alpine3.4/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/alpine3.4/alpine/3.4/Dockerfile)
  - [`alpine3.5` (alpine3.5/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/alpine3.5/alpine/3.5/Dockerfile)
+ - [`alpine3.6` (alpine3.6/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/alpine3.6/alpine/3.6/Dockerfile)
 
 Subscribe to project updates by watching the [docker-os-sshd GitHub repo](https://github.com/docker-zone/docker-os-sshd).
  

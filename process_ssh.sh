@@ -33,3 +33,4 @@ sed -ri 's/root:!::0:::::/root:*::0:::::/g' /etc/shadow
 sed -ri 's/#PermitRootLogin\s+yes/PermitRootLogin yes/g' /etc/ssh/sshd_config
 sed -ri 's/#PermitRootLogin\s+prohibit-password/PermitRootLogin yes/g' /etc/ssh/sshd_config
 sed -ri 's/PermitRootLogin\s+without-password/PermitRootLogin yes/g' /etc/ssh/sshd_config
+sed -ri 's/PermitRootLogin\s+prohibit-password/PermitRootLogin yes/g' /etc/ssh/sshd_config

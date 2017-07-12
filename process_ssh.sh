@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ## generate files
-function generate_folder()
+generate_folder()
 {
 	if [ ! -d $1 ]; 
 	then
@@ -13,7 +13,7 @@ generate_folder /app/tools/sshd;
 generate_folder /var/run/sshd;
 
 ## generate host key
-function generate_host_key()
+generate_host_key()
 {
 	if [ ! -f /etc/ssh/$1 ];
 	then

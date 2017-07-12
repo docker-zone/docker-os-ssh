@@ -1,5 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
+ - [`ubuntu16.10` (ubuntu16.10/Dockerfile)](https://github.com/docker-zone/docker-os-sshd/blob/ubuntu16.10/alpine/16.10/Dockerfile)
+
 Subscribe to project updates by watching the [docker-os-sshd GitHub repo](https://github.com/docker-zone/docker-os-sshd).
  
 # Get this image

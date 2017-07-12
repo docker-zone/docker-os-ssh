@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 ## generate root-passwd
 if [ ! -f /app/tools/sshd/.root_passwd_created ];
